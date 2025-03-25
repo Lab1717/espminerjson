@@ -8,7 +8,7 @@ const char* minerIP = "http://YOURMINERIP/api/system/info";
 const String binID = "YOUR-BIN-ID"; // Your existing bin ID
 const char* jsonBinURL = "https://api.jsonbin.io/v3/b/";  // URL for JSONBin.io API
 
-const char* apiKey = "YOUR JSONBIN.IO API KEU";  // Replace with your API Key
+const char* apiKey = "YOUR JSONBIN.IO API KEY";  // Replace with your API Key
 
 // Function to obscure BTC address
 String obscureBTCAddress(const String& addr) {
