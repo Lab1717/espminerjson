@@ -7,7 +7,7 @@ The primary use case is for securely storing miner information in a centralized 
 You can view your miner data via this url: https://api.jsonbin.io/v3/b/REPLACE-WITH-YOUR-BINID
 
 Example:
-![Alt text](image.png)
+![Alt text](Screenshot_20250325_203718_Brave.jpg)
 
 ## Features
 - **Fetch Miner Data**: Retrieves system information from a local miner (e.g., via API at `http://YOURMINERIP/api/system/info`).
