@@ -6,6 +6,9 @@ The primary use case is for securely storing miner information in a centralized 
 
 You can view your miner data via this url: https://api.jsonbin.io/v3/b/REPLACE-WITH-YOUR-BINID
 
+Example:
+![Alt text](image.png)
+
 ## Features
 - **Fetch Miner Data**: Retrieves system information from a local miner (e.g., via API at `http://YOURMINERIP/api/system/info`).
 - **Obfuscation**: Obfuscates sensitive fields (e.g., BTC addresses, SSID, MAC addresses) before storing them in JSONBin.
