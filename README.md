@@ -75,7 +75,7 @@ To use this project, you'll need to create an account on [JSONBin.io](https://js
    - Go to [JSONBin.io](https://jsonbin.io) and create an account.
    - After registration, log in to your account.
 
-2. **Create a New Bin**:
+2. **Create a New public Bin**:
    - Once logged in, click on the **"Create New Bin"** button.
    - This will create a new bin where your miner data will be stored.
    - After creating the bin, you'll be redirected to the bin’s page.
