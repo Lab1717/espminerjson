@@ -66,11 +66,34 @@ Install the following libraries via the Arduino Library Manager:
 - **Obfuscation**: Sensitive information like BTC addresses, SSIDs, and MAC addresses are obfuscated before being sent to JSONBin. This ensures that only partial, non-sensitive data is stored remotely.
 - **API Key**: Ensure that your API key is kept private and is not exposed publicly (e.g., in repositories or on the web). Consider using environment variables or a secure method to handle sensitive data.
 
+  ## Create a JSONBin Account
+
+To use this project, you'll need to create an account on [JSONBin.io](https://jsonbin.io) and obtain your API key and bin ID.
+
+1. **Create a JSONBin Account**:
+   - Go to [JSONBin.io](https://jsonbin.io) and create an account.
+   - After registration, log in to your account.
+
+2. **Create a New Bin**:
+   - Once logged in, click on the **"Create New Bin"** button.
+   - This will create a new bin where your miner data will be stored.
+   - After creating the bin, you'll be redirected to the bin’s page.
+
+3. **Get the Bin ID and API Key**:
+   - In the bin’s page, you'll find a **bin ID** in the URL (e.g., `https://jsonbin.io/v3/b/your-bin-id`). Copy this **bin ID**.
+   - To find your **API Key**, click on your profile icon in the top right corner and navigate to **Account Settings**. You can find your API key there.
+   - Copy your **API Key** as well.
+
 ## Configuration
 Before running the code, make sure to:
+
 - **Wi-Fi Settings**: Update `ssid` and `wifiPassword` with your own network credentials.
 - **Miner API**: Ensure that the miner's IP address (`minerIP`) and API endpoint are correct and accessible.
-- **JSONBin**: Replace `binID` and `apiKey` with your actual JSONBin bin ID and API key to ensure successful data upload.
+- **JSONBin**: Replace `binID` and `apiKey` in the code with your actual JSONBin bin ID and API key to ensure successful data upload.
+
+```cpp
+const String binID = "your-bin-id";  // Replace with your bin ID
+const char* apiKey = "your-api-key";  // Replace with your API Key
 
 ## Troubleshooting
 - **Wi-Fi Issues**: If the ESP32 cannot connect to your Wi-Fi network, ensure that the credentials are correct and that the ESP32 is within range of the Wi-Fi network.
