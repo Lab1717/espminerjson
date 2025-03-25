@@ -6,7 +6,7 @@ This project is an Arduino-based solution that fetches miner data from a local m
 You can view your miner data via this ur: https://api.jsonbin.io/v3/b/REPLACE-WITH-YOUR-BINID
 
 ## Features
-- **Fetch Miner Data**: Retrieves system information from a local miner (e.g., via API at `http://192.168.0.106/api/system/info`).
+- **Fetch Miner Data**: Retrieves system information from a local miner (e.g., via API at `http://YOURMINERIP/api/system/info`).
 - **Obfuscation**: Obfuscates sensitive fields (e.g., BTC addresses, SSID, MAC addresses) before storing them in JSONBin.
 - **Data Storage**: Sends the modified data to JSONBin via the API to a specified bin ID.
 - **Wi-Fi Connectivity**: Connects to a Wi-Fi network and ensures the device can communicate with both the miner and JSONBin API.
