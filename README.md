@@ -91,9 +91,6 @@ Before running the code, make sure to:
 - **Miner API**: Ensure that the miner's IP address (`minerIP`) and API endpoint are correct and accessible.
 - **JSONBin**: Replace `binID` and `apiKey` in the code with your actual JSONBin bin ID and API key to ensure successful data upload.
 
-```cpp
-const String binID = "your-bin-id";  // Replace with your bin ID
-const char* apiKey = "your-api-key";  // Replace with your API Key
 
 ## Troubleshooting
 - **Wi-Fi Issues**: If the ESP32 cannot connect to your Wi-Fi network, ensure that the credentials are correct and that the ESP32 is within range of the Wi-Fi network.
