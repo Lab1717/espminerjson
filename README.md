@@ -1,7 +1,7 @@
 # ESPMinerJSON
 
 ## Overview
-This project is an Arduino-based solution that fetches miner data from a local miner API, obfuscates sensitive fields, and then sends the data to a JSONBin cloud storage. It utilizes Wi-Fi to communicate with the miner device and the JSONBin API to store the data remotely. The primary use case is for securely storing miner information in a centralized JSONBin without exposing sensitive data such as BTC addresses, SSID, and MAC addresses.
+This project is an Arduino-based solution that fetches miner data from a AxeOS miner API  [ESP-Miner](https://github.com/bitaxeorg/ESP-Miner), obfuscates sensitive fields, and then sends the data to a JSONBin cloud storage. It utilizes Wi-Fi to communicate with the miner device and the JSONBin API to store the data remotely. The primary use case is for securely storing miner information in a centralized JSONBin without exposing sensitive data such as BTC addresses, SSID, and MAC addresses.
 
 You can view your miner data via this ur: https://api.jsonbin.io/v3/b/REPLACE-WITH-YOUR-BINID
 
