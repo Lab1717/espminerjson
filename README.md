@@ -8,6 +8,7 @@ You can view your miner data via this url: https://api.jsonbin.io/v3/b/REPLACE-W
 
 Example:
 ![Alt text](Screenshot_20250325_203718_Brave.jpg)
+
 ![Alt text](Screenshot_20250325_205605_Brave.jpg)
 
 
