@@ -1,4 +1,4 @@
-# ESPMinerJSON for BitAXE OS
+# ESPMinerJSON for AXEos (Bitaxe - Lucky miners and family)
 
 ## Overview
 This project is an Arduino-based solution that fetches miner data from AxeOS:  [ESP-Miner](https://github.com/bitaxeorg/ESP-Miner) API > [Bitaxe API Endpoints](https://osmu.wiki/bitaxe/api/), obfuscates sensitive fields, and then sends the data to a JSONBin cloud storage. It utilizes Wi-Fi to communicate with the miner device and the JSONBin API to store the data remotely. 
