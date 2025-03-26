@@ -1,4 +1,5 @@
 # ESPMinerJSON
+![GitHub all releases](https://img.shields.io/github/downloads/Lab1717/espminerjson/total)
 
 
 ## Overview
