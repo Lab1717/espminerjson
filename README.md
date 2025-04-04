@@ -6,6 +6,8 @@ The primary use case is for securely storing miner information in a centralized 
 
 You can view your miner data via this url: https://api.jsonbin.io/v3/b/REPLACE-WITH-YOUR-BINI, be mindful that your data may looks messy once you load JSONbin page, just click on the format json checkbox for a better view. 
 
+**esp32 --> AxeOS --> esp32 --> JSONbin** This way your miner is never exposed to the internet  
+
 Example:
 ![Alt text](Screenshot_20250325_203718_Brave.jpg)
 
@@ -15,8 +17,8 @@ Example:
 ## Features
 - **Fetch Miner Data**: Retrieves system information from a local miner (e.g., via API at `http://YOURMINERIP/api/system/info`).
 - **Obfuscation**: Obfuscates sensitive fields (e.g., BTC addresses, SSID, MAC addresses) before storing them in JSONBin.
-- **Data Storage**: Usintlg an ESP32 as bridge it sends the modified data to JSONBin via the API to a specified bin ID.
-- **Wi-Fi Connectivity**: Connects to a Wi-Fi network and ensures the device can communicate with both the miner and JSONBin API.
+- **Data Storage**: Using an ESP32 as **bridge** it sends the modified data to JSONBin via the API to a specified bin ID.
+- **Wi-Fi Connectivity**: Connects to a Wi-Fi network and ensures the device can communicate with both the esp32 and JSONBin API.
 - **Automated Task**: Runs the process automatically every 10 minutes.
 
 ## Requirements
