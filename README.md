@@ -15,7 +15,7 @@ Example:
 ## Features
 - **Fetch Miner Data**: Retrieves system information from a local miner (e.g., via API at `http://YOURMINERIP/api/system/info`).
 - **Obfuscation**: Obfuscates sensitive fields (e.g., BTC addresses, SSID, MAC addresses) before storing them in JSONBin.
-- **Data Storage**: Sends the modified data to JSONBin via the API to a specified bin ID.
+- **Data Storage**: Usintlg an ESP32 as bridge it sends the modified data to JSONBin via the API to a specified bin ID.
 - **Wi-Fi Connectivity**: Connects to a Wi-Fi network and ensures the device can communicate with both the miner and JSONBin API.
 - **Automated Task**: Runs the process automatically every 10 minutes.
 
