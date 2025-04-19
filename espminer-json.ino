@@ -13,7 +13,7 @@ const char* apiKey = "YOUR JSONBIN.IO API KEY";  // Replace with your API Key
 
 const char* minerID1 = "YOUR WORKER NAME 1";
 const char* minerID2 = "YOUR WORKER NAME 2";
-//const char* minerID2 = "YOUR WORKER NAME 3"; // another device and so on 
+//const char* minerID3 = "YOUR WORKER NAME 3"; // another device and so on 
 
 String obscureBTCAddress(const String& addr) {
   if (addr.length() > 8) {
