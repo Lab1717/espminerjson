@@ -6,14 +6,14 @@ const char* ssid = "YOUR-SSID";
 const char* wifiPassword = "YOUR-WIFI-PASSWORD";
 const char* minerIP = "http://YOURMINERIP/api/system/info";
 const char* minerIP2 = "http://YOURMINERIP/api/system/info";// Second device
-#const char* minerIP2 = "http://YOURMINERIP/api/system/info"; // another device and so on 
+//const char* minerIP2 = "http://YOURMINERIP/api/system/info"; // another device and so on 
 const String binID = "YOUR-BIN-ID"; // Your existing bin ID
 const char* jsonBinURL = "https://api.jsonbin.io/v3/b/";
 const char* apiKey = "YOUR JSONBIN.IO API KEY";  // Replace with your API Key
 
 const char* minerID1 = "YOUR WORKER NAME 1";
 const char* minerID2 = "YOUR WORKER NAME 2";
-#const char* minerID2 = "YOUR WORKER NAME 3"; // another device and so on 
+//const char* minerID2 = "YOUR WORKER NAME 3"; // another device and so on 
 
 String obscureBTCAddress(const String& addr) {
   if (addr.length() > 8) {
@@ -97,8 +97,8 @@ void fetchMinerData() {
   combinedDoc["device1"]["data"] = serialized(json1);
   combinedDoc["device2"]["Miner ID"] = minerID2;
   combinedDoc["device2"]["data"] = serialized(json2);
-  #combinedDoc["device2"]["Miner ID"] = minerID3;
-  #combinedDoc["device2"]["data"] = serialized(json3);
+  //combinedDoc["device2"]["Miner ID"] = minerID3;
+  //combinedDoc["device2"]["data"] = serialized(json3);
   
   String finalJson;
   serializeJson(combinedDoc, finalJson);
